@@ -1,5 +1,6 @@
 <% require javascript("sections-mosaic/js/wookmark/wookmark.min.js") %>
-<% require css("section-mosaic/css/app.css") %>
+<% require javascript("sections-mosaic/js/mosaic.js") %>
+<% require css("section-mosaic/css/mosaic.css") %>
 <div class="row">
 	<div class="small-12 column">
 		<div {$ClassAttr}{$AnchorAttr}>
