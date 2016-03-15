@@ -1,0 +1,22 @@
+{
+  "name": "scottgimblett/silverstripe-sections-mosaic",
+  "description": "Adds silverstripe mosaic section",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "modular", "sections", "mosaic"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Scott Gimblett",
+      "email": "scottggimblett@gmail.com"
+    }
+  ],
+  "require":
+  {
+    "silverstripe/framework": "^3.2",
+    "silverstripe/cms": "^3.2",
+    "coreiho/silverstripe-sections": "1.*"
+  },
+  "extra": {
+    "installer-name": "sections-mosaic"
+  }
+}
