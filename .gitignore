@@ -1,3 +1,13 @@
-scss/*
-.sass-cache/*
-.DS_Store
+*Thumbs.db
+*web.config
+*.log
+*.buildpath
+*.project
+*.settings
+*.idea
+*.DS_Store
+*._.DS_Store
+*.codekit*
+*.sublime-*
+*.sass-cache
+*prepros.cfg
