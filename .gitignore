@@ -11,3 +11,4 @@
 *.sublime-*
 *.sass-cache
 *prepros.cfg
+/node_modules
