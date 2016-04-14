@@ -8,10 +8,10 @@
 			<li class="grid-item">
 				<% if FancyboxEnabled %>
 					<a href="$Image.URL" class="fancybox" title="$Caption">
-						<img class="mosaic-image" src="$Image.ScaleWidth(230).URL" >
+						<img class="mosaic-image" src="$Image.ScaleWidth(230).URL" width="$Image.ScaleWidth(230).Width" height="$Image.ScaleWidth(230).Height">
 					</a>
 				<% else %>
-					<img class="mosaic-image" src="$Image.ScaleWidth(230).URL" >
+					<img class="mosaic-image" src="$Image.ScaleWidth(230).URL" width="$Image.ScaleWidth(230).Width" height="$Image.ScaleWidth(230).Height">
 				<% end_if %>
 			</li>
 		<% end_loop %>
